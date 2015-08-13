@@ -9,3 +9,11 @@ install:
 
 script:
     - make once
+
+deploy:
+  provider: releases
+  api_key: "5bb61d72db435b925d2091c14acdb6405c438a76"
+  file: "main.pdf"
+  skip_cleanup: true
+  on:
+    tags: true
