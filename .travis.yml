@@ -12,7 +12,7 @@ script:
 
 deploy:
   provider: releases
-  api_key: "3b4f7e9a389a1948cad51879205630f887c63724"
+  api_key: "76fd9afc59f262c96405f9c1bd5b01fec6b07b96"
   file: "main.pdf"
   skip_cleanup: true
   on:
