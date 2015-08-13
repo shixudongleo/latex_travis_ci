@@ -11,9 +11,10 @@ script:
     - make once
 
 deploy:
-  provider: releases
-  api_key: "76fd9afc59f262c96405f9c1bd5b01fec6b07b96"
-  file: "main.pdf"
-  skip_cleanup: true
-  on:
-    tags: true
+    provider: releases
+    api_key:
+        secure: pR/INcpVYqAeJGeuFab+V79FAykRjeuodM5X2uBI6w3T5/MAUy/Ddwic9HBgGn2WMKrfXIyFvOvQL9tF8hhALncjjlsFsD9dMNR1bx7QJ29578caIM0G2BWPVEdYGJSMco4mJk2glgvy++BiId+tnbnegjIA50yLtdZyPnLduaoTVGTk2u5zgmlCJXfCz6RT103MCtALgjEh8Ooc2CAGagV4jlDnGmrTsSzKRuXxI2fMwOd46KjMcvHNriRS6dsV/3VqiUI0avdb/TES0H2NzaiCu8rdpU3K9ALNq03wZeWJOxhgNPLVgB/JJ2T32qet06Lgah8SY1Y5byc3TO+C6oTpSmBi5NKtG4B9nnZsT/daUecKY0s1Zl9ILdMv3PaxYDrNlosJtIQagLHJOICMPfpt+I3Sdn5DedMzBStqoDFCjEx+HpnRGa3GTjbblzpnTb0BOWMW+WQF7lt/JdP1rNubRq8f1fKbF9h8Q2vht8trbl+XR8u9yu1BZxoZPxLBFprpYoPKicPN7+DRphq0ZzlElT6pGaFA9Hh+4kRzBJJkNA4ZyjStl6k4G5UBhvcJy4ALqHiLJcJ4TrhjavDAdVCEPm1upq+jww19AUPx/su6LfMx0Y1xVKyL9yaK7hgfYjQEmdDmFl8SWQ+hxlDJ5gY/Gt2Jekr4egrQVEco1yA=
+    file: main.pdf
+    skip_cleanup: true
+    on:
+        tags: true
