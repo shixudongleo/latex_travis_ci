@@ -1,3 +1,4 @@
+[![Build Status](https://api.travis-ci.org/shixudongleo/latex_travis_ci.png)](https://travis-ci.org/shixudongleo/latex_travis_ci)
 # LaTeX Build with Travis CI
 
 ## Dependency
